@@ -317,12 +317,17 @@ img {
   margin-bottom: 16px;
 }
 
-.our-team-socnetworks .link {
-  display: inline-flex;
-  align-items: center;
+.our-team-socnetworks {
+  display: flex;
   justify-content: center;
+}
+
+.our-team-socnetworks .link {
+  display: flex;
   width: 44px;
   height: 44px;
+  justify-content: center;
+  align-items: center;
   fill: var(--text-color-svg);
 }
 
@@ -333,7 +338,7 @@ img {
   border-radius: 50%;
 }
 
-.our-team-socnetworks .link:not(:last-child) {
+.our-team-socnetworks .icon:not(:last-child) {
   margin-right: 10px;
 }
 
